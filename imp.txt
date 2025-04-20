@@ -1,0 +1,225 @@
+BC
+
+Module 1: Introduction to DLT and Blockchain 
+
+1. Explain blockchain CAP theorem.
+2. What is forking in blockchain? Explain hard and soft forks with suitable examples.
+3. What is Distributed Ledger Technologies (DLTs)? Differentiate DLT and Blockchain Technology.
+4. What is a block header? How are blocks linked in blockchain?
+5. What is nonce in blockchain and how does it work?
+6. Explain the Proof of Stake and Proof-of-Work consensus algorithms. 
+7. Write a short notes on Byzantine Generals' Problem.
+
+Module 2: Bitcoin 
+
+1. Explain ECC algorithm in detail.
+2. Discuss block validation in Bitcoin with POW consensus algorithm.
+3. Explain bitcoin mining with the help of a neat diagram. Discuss Bitcoin Mining steps to validate the block. What is difficulty level and how does it calculate in terms of Bitcoin?
+4. Explain Simplified Payment Verification Nodes. What is the Privacy solution for SPV nodes?
+5. What is a genesis block? Explain the components of a block and block header of bitcoin in detail.
+6. Explain transactions and UTXO in bitcoin. How are fees calculated for a Bitcoin transaction?
+7. Write a short note on Transaction Pools
+8. Write a short note on Wallet Technologies in Bitcoin
+
+Module 3: Permissionless Blockchain: Ethereum
+
+1. Describe terms: Structure of Transaction, Transaction Nonce, Transaction GAS, Recipient, Values, and Data.
+2. What are the essential tools and frameworks for setting up a development environment for Solidity programming? Discuss the role of tools like Remix and Truffle in the development process.
+3. Differentiate between Bitcoin blockchain and Ethereum Blockchain.
+4. List and explain the parts of EVM memory.
+5. With the help of a suitable diagram explain the life-cycle of a smart contract in Ethereum.
+6. Explain different components of Ethereum in detail.
+7. Discuss Truffle and the various Truffle commands used during the development of Smart Contracts.
+8. Write a short note on Meta mask. 
+9. Write a short note on EOA and contracts address
+
+Module 4: Permissioned Blockchain: Hyperledger Fabric
+
+1. Explain scalability issues of permissioned blockchain.
+2. Enumerate the interoperability and scalability issues in Hyperledger fabric.
+3. Describe the various projects covered under Hyperledger umbrella projects.
+4. What is a private blockchain? Explain the distinct features and drawbacks of a private blockchain. Discuss any two examples of private blockchain.
+5. Discuss the different consensus algorithms applied in Hyperledger blockchain.
+6. Explain the role of Certificate Authority and Chain code in Hyperledger blockchain.
+7. Write a short note on Channels in Hyperledger Fabric
+
+Module 5: Crypto assets and Cryptocurrencies
+
+1. List the key differences between an ICO and STO.
+2. Explain Fungible tokens. How are ERC20 tokens helpful in blockchain applications? Describe the steps to create ERC20 tokens.
+3. List the different advantages and disadvantages of ICO.
+4. Differentiate between Fungible and Non-fungible tokens.
+5. Write a short note on ERC721
+6. Write a short note on Stock Trading Offering
+7. Write a short note on ICO Launching Mechanism
+
+Module 6: Blockchain Applications & case studies
+
+1. Enlist and discuss the key challenges addressed by blockchain technology in the domains AI and Cyber Security.
+2. Discuss the different challenges addressed by blockchain in the Energy sector.
+3. Discuss the benefits and challenges of Blockchain technology to develop applications in the finance domain.
+
+
+BDA
+
+Module 1:
+1. What is Big Data, and give types of Big Data.
+2. Explain characteristics of big data. Analyze the tourism data and identify the characteristics that are difficult to store in RDBMS and the need for big data techniques for storage and analysis.
+3. Explain what characteristics of social media make it suitable for Big Data.
+4. What are three Vs of Big Data? Give two examples of big data case studies. Indicate which Vs are satisfied by these case studies.
+
+Module 2:
+1. Explain any five components of the Hadoop ecosystem.
+2. Recall all NoSQL design patterns with examples. Justify CAP with a suitable example.
+3. Explain CAP theorem and explain how NoSQL systems guarantees BASE property.
+4. Explain the distributed storage system of Hadoop with the help of a neat diagram. (diagram)
+5. Explain the types of NoSQL data stores and their typical usage.
+6. Explain how Hadoop Distributed File System (HDFS) achieves Hadoop’s goals.
+7. What are the advantages and limitations of Hadoop?
+8. Differentiate between SQL and NoSQL systems.
+9. Explain Hadoop ecosystem components and the MapReduce programming model in detail.
+10. Recall all NoSQL design patterns with examples. Justify CAP property.
+11. Explain advantages and limitations of Hadoop.
+12. Write short notes on NoSQL data stores with examples.
+
+Module 3:
+1. Discuss Matrix-Matrix Multiplication. Perform it using 1-step MapReduce method with given matrices. (diagram)
+2. Explain working of all phases of MapReduce with a common example.
+3. Explain Grouping and Aggregation algorithm using MapReduce. Support your answer with a suitable example.
+4. Describe the pseudocode for one-step matrix multiplication using MapReduce. Apply it to determine the product of matrices M and N. (diagram)
+5. Show any five different relational algebra operations with examples.
+6. Illustrate different Relational Algebra operations using MapReduce.
+
+Module 4:
+1. Describe problems in Flajolet-Martin (FM) algorithm for counting distinct elements in a stream.
+2. Employ the DGIM algorithm on a data stream with N=14. Show bucket configuration and count of 1's. (diagram)
+3. Give two applications for counting the number of 1’s in a long stream of binary values. Illustrate how DGIM will find the number of 1’s in a stream of binary digits.
+4. Show how the Flajolet-Martin algorithm estimates the number of distinct elements in a stream for given hash functions.
+5. Elaborate issues of stream processing.
+6. Summarize Bloom’s filter with an example and its applications.
+7. Explain the DGIM algorithm and state the rules used in DGIM.
+8. Explain DGIM algorithm for counting ones in a stream with an example.
+9. Explain Flajolet-Martin (FM) algorithm.
+
+Module 5:
+1. Explain the nearest neighbor problem. What similarity measure can be used for finding plagiarism in documents?
+2. Explain Park-Chen-Yu (PCY) algorithm and its memory mapping technique.
+3. Explain clearly with diagrams the PCY method of finding frequent itemsets (pairs) in a large data set. (diagram)
+4. Explain CURE algorithm and its advantages over traditional clustering algorithms.
+5. Write short notes on CURE algorithm.
+6. Find frequent itemsets using the PCY algorithm with minimum support 3 and a given hash function. (diagram)
+7. Explain the k-means algorithm.
+8. Describe CURE algorithm for clustering.
+
+Module 6:
+1. Explain collaborative filtering in recommendation systems with an example.
+2. For the graph given below, use Clique percolation to find all communities. (diagram)
+3. Compute the PageRank of each page in the given graph with β = 0.8. (diagram)
+4. Recall HITS algorithm. Generate Hub and Authority score after 2 iterations for the given graph. (diagram)
+5. Explain collaborative filtering and how it differs from content-based filtering.
+6. Define Hub and Authority. Compute the hub and authority scores for the given web graph. (diagram)
+7. For the graph given below, use Clique percolation to find all communities. (diagram)
+8. Investigate all communities in the graph given below using CPM. (diagram)
+9. Write short notes on the structure of the web.
+
+
+UI
+
+Module 1: 
+1. What is good and bad design? Explain with one example. Can you discuss the characteristics of good design and bad design, using a specific example to illustrate the concept.
+2. What is user interaction design, and why is it important?
+3. What is the role of feedback in user interaction design?
+4. What is the difference between user interface design and user interaction design?
+
+Module 2: 
+1. What is a conceptual model in user interface design, and why is it important?
+2. What do you mean by expressive interfaces? Explain with example.
+3. Define cognition in the context of user interaction design and provide an example to illustrate its application (memory aspect).
+
+Module 3:
+1. What is the role of user research in user interaction design? How does user research contribute to the process of designing user interactions?
+2. What are key benefits of conducting task analysis during the design process?
+3. What is effective user experience? Explain importance of task analysis in design process.
+4. Summarize the different analytical frameworks used to analyze qualitative data.
+5. Summarize the key issues in Data Gathering process.
+6. Write a short note on Different interview Styles.
+7. What techniques are available for gathering data during the requirements phase, and how do these techniques help in understanding user needs and project requirements?
+
+Module 4: 
+1. What is the role of prototyping in user interaction design? Explain wireframe with example.
+2. Identify and explain the process of Interaction Design.
+3. Explain double diamond of design process in detail with example.
+4. Write a short note on Simple Life-cycle model for interaction design.
+5. What is the role of prototyping in user interaction design? What do you mean by low-fidelity and high-fidelity prototyping? Explain with examples.
+
+Module 5:
+1. Explain principles that support usability.
+2. Write a note on 10 heuristics by Nielsen.
+3. What care will you take while designing an interface for a deaf person? Justify your answer with sample design.
+4. What are usability principles? Elaborate it.
+5. What care will you take while designing an interface for a blind person? Justify your answer with sample design.
+6. Describe the principles of User-Centered Approach?
+7. Give Examples of Quantitative Data Analysis Methods.
+8. Explain Shneiderman's "Eight Golden Rules of Interface Design".
+9. Explain any five design principles and aid thinking when designing for product development with good UX.
+10. Explain good error messages with example.
+11. How does accessibility factor into user interaction design?
+12. Design the interface for Education Content Management System.
+
+Module 6:
+1. What is DECIDE framework? Explain in detail.
+2. Compare Controlled Setting, Natural Setting, and Any Setting Evaluation.
+3. List various usability inspection methods and summarize cognitive walkthrough techniques.
+
+
+EM
+
+Module 1:
+1. Write a short note on Significance of Environment  
+2. What is sustainable development? What are the parameters affecting it? Elaborate on the need and goals of Sustainable Development  
+3. Unawareness or ignorance of environmental protection will lead to detrimental consequence comment. Justify the statement  
+4. Discuss on Environmental Issues related to Indian Context  
+5. Discuss the career opportunities in the field of Environmental management  
+6. Describe the energy scenario in India  
+
+Module 2:
+1. Write a note on each: Ozone layer depletion & Acid rain  
+2. Discuss the Atomic and Biomedical hazards as related to Global environmental concern  
+3. Write short note on Loss of Biodiversity as related to global environmental concerns. State the link between Biodiversity and Climate Change  
+4. Discuss on 5 biggest environmental problems of year 2023/2024. 
+5. Write short note on Global Warming as a Global Environmental Concern  
+6. What is meant by disaster? Write a note on industrial Disaster  
+
+Module 3: 
+1. Write a short note on Eco-system and its types  
+2. Explain limiting factor and food chain/carrying capacity as related to ecosystem  
+3. Define food chain and food web. What is ecological pyramid? Discuss different types of ecological pyramid  
+
+Module 4: 
+1. Write a short note on Scope of Environment Management  
+2. How is CSR related to Environmental Management? Explain with an example  
+3. Discuss roles of Government as planning and regulatory agency for Environmental Management. Enlist 3 points  
+4. What is Corporate Environmental Responsibility? Explain it  
+5. Discuss the role of Regulatory Agencies and Pollution Control Boards in obtaining Environmental Clearance for a Project  
+
+Module 5:
+1. Explain EMS certification. How does EMS help in improving environment quality? Explain Applications and key components of EMS.
+2. What is ISO-14000 and why is it important? How does adoption of ISO-14000 practices benefit industries as well as Environment (benefits of ISO 14000)? What are the challenges in implementation of ISO 14000 standards?  
+3. Discuss on: pillars of Environmental Management  
+4. Define Environmental Objective as per ISO 14001. Elaborate the ISO 14001 EMS Model for Municipalities  
+5. Explain ISO 14001 & ISO 14010  
+6. What are the challenges of Environmental Management?  
+7. What are the guidelines to conduct an Environmental audit?  
+8. What is Total Quality Environment Management (TQEM) Concept?  
+9. Discuss on factors destroying the Environmental Management Concept?  
+10. Discuss the key success factors for applied to almost all the operation for EMS implementation   
+11. With reference to EMS, explain PDCA cycle with neat diagram  
+
+Module 6:
+1. Write a short note on Forest Act  
+2. Discuss on Air [P & CP] Act  
+3. What is Water (P & CP) Act? Give its objectives. Discuss the salient features of the Water Act  
+4. Discuss in short about Environment Protection Act  
+5. Explain Wildlife Act. What are the objectives of Wildlife Act?  
+6. Define Renewable and Non-Renewable energy with examples
+
